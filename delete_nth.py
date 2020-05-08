@@ -16,12 +16,12 @@ def delete_nth(n, num_list):
     return out_list
 
 
-if __name___ == '__main__':
-     while True:
+if __name__ == '__main__':
+    while True:
         try:
-            n = int(input('Insert the maximum occurrences: '))
+           n = int(input('Insert the maximum occurrences: '))
         except:
-            print('Invalid input. Try again.')
+           print('Invalid input. Try again.')
         else:
             break
 
